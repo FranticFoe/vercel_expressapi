@@ -258,7 +258,7 @@ app.delete("/likes", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.send("Welcome to the VExepress API!")
+    res.send("Welcome to the VExepress API! The following messages are a test message")
 })
 
 app.listen(PORT, () => {
